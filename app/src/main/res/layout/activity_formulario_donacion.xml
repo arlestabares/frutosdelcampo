@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activitiesFormularios.FormularioBancoDonacionActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+                android:id="@+id/relatiLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/txtTituloFS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tituloDonacion"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            <Spinner
+                    android:id="@+id/spinnerOpcionFD"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="60dp"
+                    android:padding="8dp"/>
+            <Spinner
+                    android:id="@+id/spinnerListaFD"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/spinnerOpcionFD"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_marginRight="60dp">
+
+            </Spinner>
+            <EditText
+                    android:id="@+id/ediTxtLibrasFD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerListaFD"
+                    android:layout_marginTop="10dp"
+                    android:inputType="number"
+                    android:hint="Kilos"
+                    android:maxLength="10"
+                    android:digits="0123456789"
+                    android:layout_marginLeft="20dp"/>
+
+            <EditText
+                    android:id="@+id/ediTxtBultosFD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ediTxtLibrasFD"
+                    android:layout_marginTop="1dp"
+                    android:inputType="number"
+                    android:hint="Bultos"
+                    android:maxLength="5"
+                    android:digits="0123456789"
+                    android:layout_marginLeft="20dp"/>
+
+            <LinearLayout
+                    android:id="@+id/linearFecha"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/ediTxtBultosFD"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/txtViewFechaRegistroFD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ediTxtBultosFD"
+                        android:inputType="date"
+                        android:hint="Fecha Registro"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="20dp"/>
+
+                <Button
+                        android:id="@+id/btnFechaFS"
+                        android:text="Seleccione Fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="55dp"
+                        android:background="@drawable/molde_btn_varios_background"/>
+            </LinearLayout>
+
+            <Button
+                    android:id="@+id/btnRegistrarFD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="  Registrar"
+                    android:layout_below="@+id/linearFecha"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginLeft="30dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:background="@drawable/molde_btn_varios_background"/>
+            <Button
+                    android:id="@+id/btnCancelarFD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/linearFecha"
+                    android:layout_marginLeft="210dp"
+                    android:text="Cancelar"
+                    android:layout_marginTop="90dp"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="30dp"
+                    android:background="@drawable/molde_btn_varios_background"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

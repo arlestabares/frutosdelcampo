@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="lista_verduras">
+        <item>Seleccione Verdura</item>
+        <item>Aguacate</item>
+        <item>Cebolla De Huevo </item>
+        <item>Cebolla De Huevo Morada</item>
+        <item>Cebolla Larga</item>
+        <item>Zanahoria</item>
+        <item>Papa Pastusa</item>
+        <item>Papa Criolla</item>
+        <item>Tomate</item>
+    </string-array>
+</resources>

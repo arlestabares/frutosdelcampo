@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activitiesFormularios.FormularioRealizarDonacionActivity">
+
+    <TextView
+            android:id="@+id/idTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Realizar Donacion"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:id="@+id/linear1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <Spinner
+                    android:id="@+id/spinnerOpcionFV"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="30dp"/>
+
+            <Spinner
+                    android:id="@+id/spinnerListaFV"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"/>
+
+            <Button
+                    android:id="@+id/btnCantidadDonar"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="Cantidad disponible para donar"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/molde_btn_varios_background"/>
+
+            <EditText
+                    android:id="@+id/ediTxtCantidadLibras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:inputType="number"
+                    android:digits="0123456789"
+                    android:maxLength="3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Kilos Para Donar"/>
+
+            <Spinner
+                    android:id="@+id/spinnerFundacionParaDonar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"/>
+
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp">
+
+                <Button
+                        android:id="@+id/btnDonar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="90dp"
+                        android:text="Registrar Donacion"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:background="@drawable/molde_btn_varios_background"/>
+
+
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_frutas">
+        <item>Seleccione Fruta</item>
+        <item>Manzana Roja</item>
+        <item>Manzana Verde</item>
+        <item>Mango</item>
+        <item>Mandarina</item>
+        <item>Pera</item>
+        <item>Piña</item>
+
+
+    </string-array>
+</resources>

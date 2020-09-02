@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activitiesFormularios.CentrosParaDonacionActivity">
+
+    <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro1"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion2"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                    <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        <ImageView
+                                android:id="@+id/idImagenCentro2"
+                                android:layout_width="100dp"
+                                android:layout_height="130dp"
+                                android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                        <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            <TextView
+                                    android:id="@+id/idTelefonoCentro2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tel. Contacto 7586360"
+                                    android:textSize="17dp"/>
+                            <TextView
+                                    android:id="@+id/idCorreo2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Correo Electronico:"
+                                    android:textSize="17dp"/>
+                            <TextView
+                                    android:id="@+id/idCorreoElectronico2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="0dp"
+                                    android:text="hasvpcircasia@gmail.com"
+                                    android:textSize="17dp"/>
+                            <TextView
+                                    android:id="@+id/idDireccion2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="0dp"
+                                    android:text="Carrera 16 Nº  7-25"
+                                    android:textSize="17dp"/>
+                            <TextView
+                                    android:id="@+id/idCiudadDelCentro2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Circasia Quindio"
+                                    android:textStyle="bold"
+                                    android:textSize="17dp"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                        <TextView
+                                android:id="@+id/idNombreCentro2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tituloCentroAtencion"
+                                android:textSize="20dp"
+                                android:layout_marginTop="115dp"
+                                android:textStyle="bold"
+                                android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro3"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro4"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion5"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro5"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion6"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro6"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion7"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro7"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion8"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro8"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewDonacion9"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="16dp">
+
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/idImagenCentro9"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:src="@mipmap/ic_home_adulto_mayor"/>
+
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <TextView
+                                android:id="@+id/idTelefonoCentro9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tel. Contacto 7586360"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreo9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Correo Electronico:"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCorreoElectronico9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="hasvpcircasia@gmail.com"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idDireccion9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:text="Carrera 16 Nº  7-25"
+                                android:textSize="17dp"/>
+                        <TextView
+                                android:id="@+id/idCiudadDelCentro9"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Circasia Quindio"
+                                android:textStyle="bold"
+                                android:textSize="17dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/idNombreCentro9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tituloCentroAtencion"
+                        android:textSize="20dp"
+                        android:layout_marginTop="115dp"
+                        android:textStyle="bold"
+                        android:gravity="center"/>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

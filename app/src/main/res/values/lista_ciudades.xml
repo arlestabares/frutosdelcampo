@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lista_ciudades">
+        <item>Seleccione Ciudad de Procedencia</item>
+        <item>Armenia</item>
+        <item>Bogota</item>
+        <item>Boyaca</item>
+        <item>Cali</item>
+        <item>Ibague</item>
+        <item>Manizales</item>
+        <item>Medellin</item>
+        <item>Pasto</item>
+        <item>Pereira</item>
+        <item>Popayan</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main"
+        tools:context=".activitiesFormularios.MainActivity">
+
+    <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewRC"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview1"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewRC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/registrarCFV"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewLRC"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview11"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewLRFV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/listarRegistrosCompraFrutaVerdura"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewRStock"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewRStockFV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/registrarStockFV"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewLRStock"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview41"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewLRStock"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/listarStockFV"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewRD"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview3"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewRDFV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/registrarDFV"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewLD"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview31"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewLFVD"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/listarFVEnDonacion"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewRP"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview4"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewRP"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/registrarPFV"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewLP"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview42"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewLPFV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/listarProveedoresFV"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/cardViewIA"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="3dp"
+                    android:elevation="10dp"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:cardElevation="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/imageManzanaCarview5"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@drawable/cebolla_huevo_roja"/>
+
+                    <TextView
+                            android:id="@+id/txtViewIA"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/informacionDeFuncionalidadAplicacion"
+                            android:gravity="center"
+                            android:textSize="26dp"
+                            android:textStyle="bold"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

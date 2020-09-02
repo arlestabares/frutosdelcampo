@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb90f175-5825-48f3-b276-73b6c43667c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/res/layout/main_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioCompraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioCompraActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/adapter/AdapterProveedores.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/adapter/AdapterProveedores.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarCompraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarCompraActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarStockActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarStockActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/modelo/Registro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/modelo/Registro.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/EscribirFichero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/EscribirFichero.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/res/layout/molde_carview_interfaz_principal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/res/layout/molde_carview_interfaz_principal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frutasyverdurasdelcampo" />
+  </component>
+  <component name="ProjectId" id="1dQpORzBdNTTOJoNavdtnRDCYmu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb90f175-5825-48f3-b276-73b6c43667c9" name="Default Changelist" comment="" />
+      <created>1592367138737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592367138737</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592367202661">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="424" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592367202661" />
+  </component>
+</project>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".editarFormularios.EditarProveedorActivity">
+
+    <ScrollView
+            android:id="@+id/scrollRegistroCompra"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/linearEditarProveedor2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/txtTituloFS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Editar Proveedor"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            <EditText
+                    android:id="@+id/ediTxtNombreEP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:hint="Nombre"
+                    android:maxLength="28"
+                    android:inputType="text"
+                    android:layout_marginLeft="20dp"/>
+
+            <Spinner
+                    android:id="@+id/spinnerCiudadEP"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/ediTxtNombreEP"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_marginRight="50dp"/>
+            <EditText
+                    android:id="@+id/ediTxtTelefonoEP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerCiudadEP"
+                    android:hint="Telefono"
+                    android:maxLength="10"
+                    android:inputType="number"
+                    android:layout_marginLeft="20dp"/>
+            <LinearLayout
+                    android:id="@+id/linearFecha"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/ediTxtTelefonoEP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/txtViewFechaRegistroEP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ediTxtTelefonoEP"
+                        android:layout_marginTop="1dp"
+                        android:hint="Fecha Registro"
+                        android:textSize="20dp"
+                        android:maxLength="9"
+                        android:inputType="date"
+                        android:layout_marginLeft="20dp"/>
+
+                <Button
+                        android:id="@+id/btnFechaFS"
+                        android:text="Seleccione Fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="55dp"
+                        android:background="@drawable/molde_btn_varios_background"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110dp">
+                <Button
+                        android:id="@+id/btnEditarProveedorEP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:text="Registrar"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/molde_btn_varios_background"/>
+                <Button
+                        android:id="@+id/btnCancelarEP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:text="Cancelar "
+                        android:paddingRight="30dp"
+                        android:paddingLeft="30dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/molde_btn_varios_background"/>
+            </LinearLayout>
+
+            <Button
+                    android:id="@+id/btnEliminarProveedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:text="Eliminar Proveedor"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/molde_btn_varios_background"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Comercio al Por Mayor</string>
+    <string name="nombre_app_SplasActivity">COMERCIO AL POR MAYOR DE PRODUCTOS AGROPECUARIOS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Arles Tabares Carvajal</string>
+    <string name="nav_header_subtitle">Frutas y Verduras del Campo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Interfazpricipal">Registrar Compra de frutas o Verduras</string>
+
+
+    <!--Titulos de menu navegacion -->
+
+    <string name="informacionSobreAplicacion">Informacion de Aplicacion</string>
+    <string name="registrarProveedor">Registrar Proveedor</string>
+    <string name="centrosParaDonacion">Centros Para Donacion</string>
+    <string name="donacionesRealizadas">Donaciones Realizadas</string>
+    <string name="realizarDonacion">Realizar Donaciones</string>
+
+    <!-- Titulos de molde_carview_interfaz_principal -->
+    <string name="modelocarview_interfaz_principal">MegaFrutas y Verduras de Mercar</string>
+    <string name="modelocarview_interfaz_principal_descripcion">Registrar Compra de Frutas o Verduras</string>
+    <string name="modelocarviewRegistrarCompraFruta">Registrar Compra de Frutas</string>
+    <string name="modelocarviewRegistrarCompraVerdura">Registrar Compra de Verdura</string>
+    <string name="registrarCFV">Registrar Compra de Frutas o Verduras</string>
+    <string name="registrarDFV">Registrar Frutas o Verduras en Banco de Donacion</string>
+    <string name="registrarPFV">Registrar Proveedor</string>
+    <string name="listarRegistrosCompraFrutaVerdura">Listar registros de Compra de Frutas o Verduras</string>
+    <string name="registrarStockFV">Registrar Stock de Frutas o Verduras</string>
+    <string name="listarStockFV">Listar Registros de Frutas y Verduras en Stock</string>
+    <string name="listarFVEnDonacion">Listar Fruta o Verdura en Banco de Donacion</string>
+    <string name="listarProveedoresFV">Listar Proveedores Registrados</string>
+    <string name="informacionDeFuncionalidadAplicacion">Informacion Sobre Funcionalidad de la Aplicacion</string>
+
+
+    <!--Titulos de las listas listarCompraActivity, listarDonacionActivty, listarProveedorActivity, listarStockActivity -->
+    <string name="tituloRegistroEditar">Seleccione registro para editar</string>
+
+
+    <!--Titulos listas de Edicion -->
+
+    <string name="editarStock">Editar Stock de Fruta o Verdura</string>
+
+
+    <!--Titulos de los Formularios de La aplicacion -->
+    <string name="tituloDonacion">Registrar Fruta o Verdura Para Donacion</string>
+    <string name="ayudaAplicacionBloqueUno">Bienvenido a la aplicacion de compra de frutas y verduras,
+        esta lectura le ayudara a informarse de la funcionalidad y la navegacion de la misma.
+    </string>
+    <string name="ayudaAplicacionBloqueUnoBis">
+        La lista principal le indica que puede hacer alguna operacion sobre cualquier elemento de la misma,
+        con solo seleccionar algun item este le llevara a su correspondiente operacion, a continuacion vera
+        un ejemplo de la lista principal.
+    </string>
+    <string name="ayudaAplicacionBloqueDos">Al seleccionar la operacion deseada esta le llevara con los pasos siguientes
+        para terminar el proceso, y podra regresar nuevamente a la lista principal si desea seleccionar otras
+        operaciones.
+    </string>
+    <string name="ayudaAplicacionBloqueDosBis">
+        Es de aclarar al usuario que cada una de las operaciones que se realicen lleva consigo un registro que le
+        ayudara
+        para consultas de las mismas y futuros registros que permitiran mostrar estadisticas de los productos
+        relacionados con sus operaciones correspondientes.
+    </string>
+
+
+    <!--Titulos de Centros de Atencion Al adulto Mayor-->
+    <string name="tituloCentroAtencion">Centro de Atencion al Adulto Mayor
+        Hogar del Anciano San Vicente de Paul"
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragment Verde</string>
+</resources>

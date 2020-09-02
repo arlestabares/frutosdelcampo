@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "381250960276",
+    "firebase_url": "https://frutasyverdurasdelcampo-232ee.firebaseio.com",
+    "project_id": "frutasyverdurasdelcampo-232ee",
+    "storage_bucket": "frutasyverdurasdelcampo-232ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381250960276:android:edf72af3e0f0f747",
+        "android_client_info": {
+          "package_name": "com.example.nadie.megafrutasyverduras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381250960276-rl9m7btpgq9vuem89m3ibo19mkqrjm54.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nadie.megafrutasyverduras",
+            "certificate_hash": "db417a854ec63860113646e223d497160bdf3147"
+          }
+        },
+        {
+          "client_id": "381250960276-i8ui7ctn1g5a7de8m7nor8haksbajdhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmH6JjLvXn675_QDww6PxKMht-Kciwae8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381250960276-i8ui7ctn1g5a7de8m7nor8haksbajdhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

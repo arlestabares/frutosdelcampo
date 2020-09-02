@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.nadie.megafrutasyverduras">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".activitiesListar.ListarDonacionesRealizadasActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.FormularioRealizarDonacionActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.CentrosParaDonacionActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.InformacionFuncionalidadActivity">
+        </activity>
+        <activity android:name=".editarFormularios.EditarStockActivity">
+        </activity>
+        <activity android:name=".editarFormularios.EditarProveedorActivity">
+        </activity>
+        <activity android:name=".editarFormularios.EditarCompraActivity">
+        </activity>
+        <activity android:name=".editarFormularios.EditarDonacionActivity">
+        </activity>
+        <activity
+                android:name=".activitiesFormularios.MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activitiesListar.ListarCompraActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitiesFormularios.FormularioCompraActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.FormularioStockActivity">
+        </activity>
+        <activity android:name=".activitiesListar.ListarStockActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.FormularioBancoDonacionActivity">
+        </activity>
+        <activity android:name=".activitiesListar.ListarBancoDeDonacionesActivity">
+        </activity>
+        <activity android:name=".activitiesFormularios.FormularioProveedorActivity">
+        </activity>
+        <activity android:name=".activitiesListar.ListarProveedoresActivity">
+        </activity>
+    </application>
+
+</manifest>
