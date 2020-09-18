@@ -4,7 +4,9 @@ import android.app.Activity
 import android.content.Intent
 import android.content.Intent.*
 import android.os.Bundle
+import android.os.Handler
 import android.support.design.widget.NavigationView
+import android.support.design.widget.Snackbar
 import android.support.v4.app.Fragment
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
@@ -19,8 +21,10 @@ import com.example.nadie.megafrutasyverduras.bd.ConexionSQLite
 import com.example.nadie.megafrutasyverduras.modelo.Producto
 import com.example.nadie.megafrutasyverduras.modelo.Proveedor
 import com.example.nadie.megafrutasyverduras.modelo.Registro
+import com.example.nadie.megafrutasyverduras.util.Dialogo
 import com.example.nadie.megafrutasyverduras.util.EscribirFichero
 import com.example.nadie.megafrutasyverduras.util.ManagerFireBase
+import com.example.nadie.megafrutasyverduras.util.MensajeUsuario
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
@@ -37,8 +41,8 @@ import org.jetbrains.anko.toast
  *
  */
 class MainActivity : AppCompatActivity(),
-    NavigationView.OnNavigationItemSelectedListener, View.OnClickListener, ManagerFireBase.onActualizarAdaptador {
-
+    NavigationView.OnNavigationItemSelectedListener, View.OnClickListener,
+    ManagerFireBase.onActualizarAdaptador {
 
     lateinit var listaProductos: ArrayList<Producto>
     lateinit var listaCompra: ArrayList<Registro>
@@ -100,8 +104,31 @@ class MainActivity : AppCompatActivity(),
         val sqlite = ConexionSQLite(this, 1)
         Log.e("lista", sqlite.obtenerListaRegistros().toString())
 
+
+            ejecutarMensaje()
+
+
     }
 
+    private fun ejecutarMensaje() {
+         var handler:Handler = Handler()
+            var runnable = Runnable {
+                mensajeUsuario()
+            }
+            handler.postDelayed(runnable, 3000)
+        }
+
+    private fun mensajeUsuario() {
+
+        if (listaBancoDonacion.toString() != null) {
+
+            //  Snackbar.make(findViewById(R.id.content_main), "Recuerde Realizar Donacion", Snackbar.LENGTH_LONG).show()
+            val mySnackBar = Dialogo.miSnackBar(
+                findViewById(R.id.content_main), "Realizar Donacion de fruta", true)
+            mySnackBar?.setAction("Donacion Pendiente") { mySnackBar.dismiss() }
+            mySnackBar?.show()
+        }
+    }
 
     override fun onBackPressed() {
         if (drawer_layout.isDrawerOpen(GravityCompat.START)) {
@@ -243,14 +270,14 @@ class MainActivity : AppCompatActivity(),
             R.id.nav_share -> {
 
 
-                var cadena:String  = ""
+                var cadena: String = ""
 
-                for (registro in listaCompra){
-                    cadena+="Nombre:   " +registro.nombreFV+"\n"
-                    cadena+="Precio Por Kilo: " +registro.precio +" pesos\n"
-                    cadena+="Ciudad de procedencia: " +registro.procedencia + "\n"
-                    cadena+="Fecha de  Registro: " +registro.fechaRegistro+"\n"
-                    cadena+="-----------------------------------------------"+"\n"
+                for (registro in listaCompra) {
+                    cadena += "Nombre:   " + registro.nombreFV + "\n"
+                    cadena += "Precio Por Kilo: " + registro.precio + " pesos\n"
+                    cadena += "Ciudad de procedencia: " + registro.procedencia + "\n"
+                    cadena += "Fecha de  Registro: " + registro.fechaRegistro + "\n"
+                    cadena += "-----------------------------------------------" + "\n"
                 }
 
                 EscribirFichero.savePdf(this, cadena)
@@ -264,7 +291,8 @@ class MainActivity : AppCompatActivity(),
 
         if (isFragmentSelection == true) {
             if (miFragment != null) {
-                supportFragmentManager.beginTransaction().replace(R.id.content_main, miFragment).addToBackStack(null)
+                supportFragmentManager.beginTransaction().replace(R.id.content_main, miFragment)
+                    .addToBackStack(null)
                     .commit()
             }
 
@@ -484,7 +512,8 @@ class MainActivity : AppCompatActivity(),
                     val editarStock = data.getParcelableExtra<Registro>("registroDesdeListarStock")
                     val pos = data.getIntExtra("posicion", 0)
 
-                    val eliminarRegistroStock = data.getParcelableExtra<Registro>("eliminarDonacionRealizada")
+                    val eliminarRegistroStock =
+                        data.getParcelableExtra<Registro>("eliminarDonacionRealizada")
                     val posEliminar = data.getIntExtra("posicionEliminar", 0)
 
                     if (editarStock != null) {
@@ -498,17 +527,20 @@ class MainActivity : AppCompatActivity(),
 
         } else if (requestCode == 16) {
             if (resultCode == Activity.RESULT_OK) {
-                val registrarDonacion = data?.getParcelableExtra<Registro>("registroDesdeFormularioDonacion")
+                val registrarDonacion =
+                    data?.getParcelableExtra<Registro>("registroDesdeFormularioDonacion")
                 guardarRegistro(registrarDonacion!!, 16)
                 Log.e("registroParaDonacionnn", registrarDonacion.toString())
             }
 
         } else if (requestCode == 17) {
             if (resultCode == Activity.RESULT_OK) {
-                val actualizarDonacion = data?.getParcelableExtra<Registro>("registroDesdeListarDonacion")
+                val actualizarDonacion =
+                    data?.getParcelableExtra<Registro>("registroDesdeListarDonacion")
                 val posicion = data?.getIntExtra("posicion", 0)
                 val posEliminar = data?.getIntExtra("posicionEliminar", 0)
-                val registroEliminar = data?.getParcelableExtra<Registro>("eliminarRegistroDonacion")
+                val registroEliminar =
+                    data?.getParcelableExtra<Registro>("eliminarRegistroDonacion")
 
                 if (actualizarDonacion != null && posicion != null) {
                     actualizarRegistro(posicion, actualizarDonacion, 17)
@@ -526,11 +558,13 @@ class MainActivity : AppCompatActivity(),
         } else if (requestCode == 19) {
             if (resultCode == Activity.RESULT_OK) {
 
-                val actualizarRegistro = data?.getParcelableExtra<Proveedor>("registroDesdeListarProveedor")
+                val actualizarRegistro =
+                    data?.getParcelableExtra<Proveedor>("registroDesdeListarProveedor")
                 val pos = data?.getIntExtra("posicion", 0)
 
                 val posEliminar = data?.getIntExtra("posEliminar", 0)
-                val eliminarRegistroProveedor = data?.getParcelableExtra<Proveedor>("registroEliminar")
+                val eliminarRegistroProveedor =
+                    data?.getParcelableExtra<Proveedor>("registroEliminar")
 
                 if (actualizarRegistro != null && pos != null) {
                     actualizarProveedor(pos, actualizarRegistro)

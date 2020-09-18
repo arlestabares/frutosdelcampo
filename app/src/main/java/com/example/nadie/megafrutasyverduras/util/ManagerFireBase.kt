@@ -100,7 +100,7 @@ object ManagerFireBase {
     }
 
     /**
-     * Funcion encargada de eliminar los registros asociados a la lista de degistrarCompra
+     * Funcion encargada de eliminar los registros asociados a la lista de gistrarCompra
      */
     fun eliminarCompra(registro: Registro){
         dataRef!!.child("registro").child(registro.id).removeValue()

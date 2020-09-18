@@ -6,6 +6,7 @@ import android.content.DialogInterface
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.design.widget.Snackbar
 import android.support.v7.app.AlertDialog
 import android.view.View
 import android.widget.AdapterView
@@ -14,6 +15,8 @@ import android.widget.TextView
 import android.widget.Toast
 import com.example.nadie.megafrutasyverduras.R
 import com.example.nadie.megafrutasyverduras.modelo.Registro
+import com.example.nadie.megafrutasyverduras.util.Dialogo
+import com.example.nadie.megafrutasyverduras.util.MensajeUsuario
 import kotlinx.android.synthetic.main.activity_formulario_donacion.*
 import java.util.*
 
@@ -93,11 +96,15 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
                     registro.tipoOpcion = spinnerOpcionFD.selectedItemPosition
                     registro.tipoLista = spinnerListaFD.selectedItemPosition
 
+
                     /*intent con destino a  MainActivity , quien se encarga de gestionar los registros guaradandolos
                     en cada una de las listas para ser enviadas hacia la actividad que lo requiera */
                     var intent = Intent()
                     intent.putExtra("registroDesdeFormularioDonacion", registro)
                     setResult(Activity.RESULT_OK, intent)
+
+
+
                     finish()
 
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FrutasYVerduras.iml" filepath="$PROJECT_DIR$/.idea/FrutasYVerduras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="frutosdelcampo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frutosdelcampo.iml" filepath="$PROJECT_DIR$/.idea/modules/frutosdelcampo.iml" group="frutosdelcampo" />
     </modules>
   </component>
 </project>

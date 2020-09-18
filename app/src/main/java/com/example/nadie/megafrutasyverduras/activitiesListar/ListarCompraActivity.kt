@@ -28,7 +28,7 @@ class ListarCompraActivity() : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro_compra)
 
-        //intent proveniente de InterfazPrincipalFragment
+        //intent proveniente de InterfazPrincipal
         listaCompra = intent.getParcelableArrayListExtra("registros")
 
         recyclerView = findViewById(R.id.recyclerRegistroAnteriorFV)

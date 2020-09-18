@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Comercio al Por Mayor</string>
-    <string name="nombre_app_SplasActivity">COMERCIO AL POR MAYOR DE PRODUCTOS AGROPECUARIOS</string>
+    <string name="nombre_app_SplasActivity">GRANJA LA MILENA</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Arles Tabares Carvajal</string>
@@ -23,13 +23,13 @@
     <string name="modelocarview_interfaz_principal_descripcion">Registrar Compra de Frutas o Verduras</string>
     <string name="modelocarviewRegistrarCompraFruta">Registrar Compra de Frutas</string>
     <string name="modelocarviewRegistrarCompraVerdura">Registrar Compra de Verdura</string>
-    <string name="registrarCFV">Registrar Compra de Frutas o Verduras</string>
-    <string name="registrarDFV">Registrar Frutas o Verduras en Banco de Donacion</string>
+    <string name="registrarCFV">Registrar Compra</string>
+    <string name="registrarDFV">Registrar Fruta en Banco de Donacion</string>
     <string name="registrarPFV">Registrar Proveedor</string>
-    <string name="listarRegistrosCompraFrutaVerdura">Listar registros de Compra de Frutas o Verduras</string>
-    <string name="registrarStockFV">Registrar Stock de Frutas o Verduras</string>
-    <string name="listarStockFV">Listar Registros de Frutas y Verduras en Stock</string>
-    <string name="listarFVEnDonacion">Listar Fruta o Verdura en Banco de Donacion</string>
+    <string name="listarRegistrosCompraFrutaVerdura">Listar registros de Compras</string>
+    <string name="registrarStockFV">Registrar Frutas en Stock</string>
+    <string name="listarStockFV">Listar Frutas en Stock</string>
+    <string name="listarFVEnDonacion">Listar Fruta en Banco de Donacion</string>
     <string name="listarProveedoresFV">Listar Proveedores Registrados</string>
     <string name="informacionDeFuncionalidadAplicacion">Informacion Sobre Funcionalidad de la Aplicacion</string>
 

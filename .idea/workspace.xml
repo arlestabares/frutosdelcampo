@@ -1,43 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eb90f175-5825-48f3-b276-73b6c43667c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/res/layout/main_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioCompraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioCompraActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/adapter/AdapterProveedores.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/adapter/AdapterProveedores.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarCompraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarCompraActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarStockActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/editarFormularios/EditarStockActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/modelo/Registro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/modelo/Registro.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/EscribirFichero.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/EscribirFichero.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/res/layout/molde_carview_interfaz_principal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/app/src/main/res/layout/molde_carview_interfaz_principal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frutasyverdurasdelcampo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/frutasyverdurasdelcampo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/Dialogo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/MensajeUsuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FrutasYVerduras.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioBancoDonacionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioBancoDonacionActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesListar/ListarCompraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesListar/ListarCompraActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/RegistroSQLHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/RegistroSQLHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/modelo/Opcion.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_stock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_stock.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_22" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frutasyverdurasdelcampo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dQpORzBdNTTOJoNavdtnRDCYmu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="E8RBB17B17404656" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-18T02:13:37.206Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,10 +161,60 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/frutasyverdurasdelcampo" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="459" y="155" key="#Project_Structure" timestamp="1599017500733">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="459" y="155" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1599017500733" />
+    <state x="618" y="320" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600396375139">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="618" y="320" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600396375139" />
     <state x="424" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592367202661">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="424" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1592367202661" />
+    <state x="612" y="496" key="#com.intellij.ide.util.MemberChooser" timestamp="1600208071163">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="612" y="496" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1600208071163" />
+    <state width="1344" height="289" key="GridCell.Tab.0.bottom" timestamp="1600235398770">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1344" height="289" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600235398770" />
+    <state width="1344" height="289" key="GridCell.Tab.0.center" timestamp="1600235398769">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1344" height="289" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600235398769" />
+    <state width="1344" height="289" key="GridCell.Tab.0.left" timestamp="1600235398769">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1344" height="289" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600235398769" />
+    <state width="1344" height="289" key="GridCell.Tab.0.right" timestamp="1600235398770">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1344" height="289" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600235398770" />
+    <state x="418" y="117" key="SettingsEditor" timestamp="1599017603700">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="418" y="117" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599017603700" />
+    <state x="394" y="214" width="1186" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600213485365">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="394" y="214" width="1186" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600213485365" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1600464836419">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600464836419" />
+    <state x="643" y="440" width="743" height="488" key="find.popup" timestamp="1600465310640">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="643" y="440" width="743" height="488" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1600465310640" />
   </component>
 </project>

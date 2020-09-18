@@ -52,11 +52,33 @@ class ConexionSQLite {
                 lista.add(reg)
 
             }while(c.moveToNext())
-
         }
+        return lista
+
+    } fun eliminarRegistro(): ArrayList<Registro> {
+        var lista:ArrayList<Registro> = ArrayList()
+
+
+
 
         return lista
 
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
