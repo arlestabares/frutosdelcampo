@@ -35,7 +35,7 @@
 
 
     <!--Titulos de las listas listarCompraActivity, listarDonacionActivty, listarProveedorActivity, listarStockActivity -->
-    <string name="tituloRegistroEditar">Seleccione registro para editar</string>
+    <string name="editar_registro_donaciones">Seleccione registro para editar</string>
 
 
     <!--Titulos listas de Edicion -->
@@ -74,4 +74,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Fragment Verde</string>
     <string name="registro_compra_frutas">Registro de Compra</string>
+    <string name="editar_registro">Editar Registro</string>
+    <string name="editar_lista_registro">Seleccione Registro para Editar</string>
+    <string name="BD_editar_registro">Seleccione Registro para Editar</string>
 </resources>
