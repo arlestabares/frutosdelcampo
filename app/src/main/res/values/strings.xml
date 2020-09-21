@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Comercio al Por Mayor</string>
+    <string name="app_name">Granja la Milena</string>
     <string name="nombre_app_SplasActivity">GRANJA LA MILENA</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -26,12 +26,12 @@
     <string name="registrarCFV">Registrar Compra</string>
     <string name="registrarDFV">Registrar Fruta en Banco de Donacion</string>
     <string name="registrarPFV">Registrar Proveedor</string>
-    <string name="listarRegistrosCompraFrutaVerdura">Listar registros de Compras</string>
-    <string name="registrarStockFV">Registrar Frutas en Stock</string>
-    <string name="listarStockFV">Listar Frutas en Stock</string>
-    <string name="listarFVEnDonacion">Listar Fruta en Banco de Donacion</string>
-    <string name="listarProveedoresFV">Listar Proveedores Registrados</string>
-    <string name="informacionDeFuncionalidadAplicacion">Informacion Sobre Funcionalidad de la Aplicacion</string>
+    <string name="listarRegistrosCompraFrutaVerdura">Listar Compras</string>
+    <string name="registrarStockFV">Registrar piña en Stock</string>
+    <string name="listarStockFV">Listar Stock</string>
+    <string name="listarFVEnDonacion">Listar Banco de Donacion</string>
+    <string name="listarProveedoresFV">Listar Proveedores</string>
+    <string name="informacionDeFuncionalidadAplicacion">Informacion Funcionalidad de la Aplicacion</string>
 
 
     <!--Titulos de las listas listarCompraActivity, listarDonacionActivty, listarProveedorActivity, listarStockActivity -->
@@ -73,4 +73,5 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Fragment Verde</string>
+    <string name="registro_compra_frutas">Registro de Compra</string>
 </resources>

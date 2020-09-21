@@ -10,23 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb90f175-5825-48f3-b276-73b6c43667c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/Dialogo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/MensajeUsuario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FrutasYVerduras.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/checklist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/client.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/iconlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/pineapple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/providers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/checklist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/client.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/iconlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/pineapple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/providers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/checklist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/client.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/iconlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/pineapple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/providers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioBancoDonacionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/FormularioBancoDonacionActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesFormularios/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesListar/ListarCompraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/activitiesListar/ListarCompraActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/ConexionSQLite.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/RegistroSQLHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/bd/RegistroSQLHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/modelo/Opcion.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nadie/megafrutasyverduras/util/ManagerFireBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_stock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_stock.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_compra.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_formulario_compra.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
@@ -80,6 +105,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="E8RBB17B17404656" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-18T02:13:37.206Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -184,6 +210,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="612" y="496" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1600208071163" />
+    <state x="635" y="424" key="AndroidCreateXmlResourceDialog" timestamp="1600660737770">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="635" y="424" key="AndroidCreateXmlResourceDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600660737770" />
     <state width="1344" height="289" key="GridCell.Tab.0.bottom" timestamp="1600235398770">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -204,14 +234,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="418" y="117" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599017603700" />
-    <state x="394" y="214" width="1186" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600213485365">
+    <state x="394" y="214" width="1186" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600662253439">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="394" y="214" width="1186" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600213485365" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1600464836419">
+    <state x="394" y="214" width="1186" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600662253439" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1600651777362">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600464836419" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600651777362" />
     <state x="643" y="440" width="743" height="488" key="find.popup" timestamp="1600465310640">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

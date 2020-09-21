@@ -1,140 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".activitiesFormularios.FormularioCompraActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitiesFormularios.FormularioCompraActivity">
 
     <ScrollView
 
-            android:id="@+id/scrollRegistroCompra"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        android:id="@+id/scrollRegistroCompra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <RelativeLayout
-                android:id="@+id/relatiLayout2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            android:id="@+id/relatiLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <TextView
-                    android:id="@+id/txtTituloFS"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Registro de Compra Frutas o Verduras"
-                    android:textSize="25dp"
-                    android:textStyle="bold"
-                    android:gravity="center"/>
+                android:id="@+id/txtTituloFS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/registro_compra_frutas"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:textStyle="bold" />
 
             <Spinner
-                    android:id="@+id/spinnerOpcionFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="80dp"
-                    android:padding="8dp"
-                    android:layout_marginRight="60dp"/>
+                android:id="@+id/spinnerOpcionFC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="60dp"
+                android:padding="8dp" />
+
             <Spinner
-                    android:id="@+id/spinnerListaFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:scrollbarSize="30dp"
-                    android:layout_marginTop="130dp"
-                    android:padding="8dp"
-                    android:layout_marginRight="60dp"/>
+                android:id="@+id/spinnerListaFC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="60dp"
+                android:padding="8dp"
+                android:scrollbarSize="30dp" />
 
             <EditText
-                    android:id="@+id/ediTxtPrecioLibraFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/spinnerListaFC"
-                    android:hint="Precio por Kilo"
-                    android:inputType="number"
-                    android:maxLength="10"
-                    android:digits="0123456789"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"/>
+                android:id="@+id/ediTxtPrecioLibraFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerListaFC"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:digits="0123456789"
+                android:hint="Precio por Kilo"
+                android:inputType="number"
+                android:maxLength="10" />
+
             <EditText
-                    android:id="@+id/ediTxtLibrasFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/ediTxtPrecioLibraFC"
-                    android:hint="Kilos"
-                    android:inputType="number"
-                    android:maxLength="10"
-                    android:digits="0123456789"
-                    android:layout_marginLeft="20dp"/>
+                android:id="@+id/ediTxtLibrasFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ediTxtPrecioLibraFC"
+                android:layout_marginLeft="20dp"
+                android:digits="0123456789"
+                android:hint="Kilos"
+                android:inputType="number"
+                android:maxLength="10" />
+
             <EditText
-                    android:id="@+id/ediTxtBultosFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/ediTxtLibrasFC"
-                    android:hint="Bultos"
-                    android:inputType="number"
-                    android:maxLength="5"
-                    android:digits="0123456789"
-                    android:layout_marginLeft="20dp"/>
+                android:id="@+id/ediTxtBultosFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ediTxtLibrasFC"
+                android:layout_marginLeft="20dp"
+                android:digits="0123456789"
+                android:hint="Bultos"
+                android:inputType="number"
+                android:maxLength="5" />
+
             <Spinner
-                    android:id="@+id/spinnerCiudadFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="8dp"
-                    android:layout_below="@+id/ediTxtBultosFC"
-                    android:layout_marginRight="60dp"/>
+                android:id="@+id/spinnerCiudadFC"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/ediTxtBultosFC"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:padding="8dp" />
+
             <LinearLayout
-                    android:id="@+id/linearFecha"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="20dp"
-                    android:layout_below="@+id/spinnerCiudadFC"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                android:id="@+id/linearFecha"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/spinnerCiudadFC"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
                 <TextView
-                        android:id="@+id/ediTxtFechaRegistroFC"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:hint="Fecha Registro "
-                        android:layout_below="@+id/spinnerCiudadFC"
-                        android:inputType="date"
-                        android:textSize="20dp"
-                        android:layout_marginLeft="25dp"/>
+                    android:id="@+id/ediTxtFechaRegistroFC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerCiudadFC"
+                    android:layout_marginLeft="25dp"
+                    android:hint="Fecha Registro "
+                    android:inputType="date"
+                    android:textSize="20dp" />
 
 
                 <Button
-                        android:id="@+id/btnFechaFS"
-                        android:text="Ingrese Fecha"
-                        android:layout_width="wrap_content"
-                        android:layout_height="38dp"
-                        android:textSize="14dp"
-                        android:layout_marginLeft="60dp"
-                        android:padding="6dp"
-                        android:background="@drawable/molde_btn_varios_background"/>
+                    android:id="@+id/btnFechaFS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="60dp"
+                    android:background="@drawable/molde_btn_varios_background"
+                    android:padding="6dp"
+                    android:text="Ingrese Fecha"
+                    android:textSize="14dp" />
 
             </LinearLayout>
 
             <Button
-                    android:id="@+id/btnRegistrarFC"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:text="Registrar"
-                    android:layout_below="@+id/linearFecha"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="30dp"
-                    android:paddingRight="20dp"
-                    android:paddingLeft="20dp"
-                    android:background="@drawable/molde_btn_varios_background"/>
+                android:id="@+id/btnRegistrarFC"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_below="@+id/linearFecha"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/molde_btn_varios_background"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Registrar" />
+
             <Button
-                    android:id="@+id/btnCancelarFC"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:layout_below="@+id/linearFecha"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="225dp"
-                    android:text="Cancelar"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="20dp"
-                    android:background="@drawable/molde_btn_varios_background"/>
+                android:id="@+id/btnCancelarFC"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_below="@+id/linearFecha"
+                android:layout_marginLeft="225dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/molde_btn_varios_background"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Cancelar" />
 
 
         </RelativeLayout>

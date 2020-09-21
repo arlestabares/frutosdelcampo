@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
         hdn.postDelayed(Runnable {
             var intent:Intent = Intent(this, MainActivity::class.java)
             this.startActivity(intent)
-        }, 2000)
+        }, 4000)
 
     }
 }

@@ -15,6 +15,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import com.example.nadie.megafrutasyverduras.R
 import com.example.nadie.megafrutasyverduras.activitiesListar.*
 import com.example.nadie.megafrutasyverduras.bd.ConexionSQLite
@@ -583,19 +584,18 @@ class MainActivity : AppCompatActivity(),
                 val listaFV = data?.getIntExtra("listaFV", 0)
                 val registro = data?.getParcelableExtra<Registro>("registroDonacionRealizada")
 
-
                 Log.e("libras_r", libras.toString())
 
                 for (registro in listaBancoDonacion) {
                     if (registro.tipoOpcion == opcionFV && registro.tipoLista == listaFV) {
-                        if (registro.libras - libras!! > 0) {
+                        if (registro.libras - libras!! >= 0) {
                             registro.libras = registro.libras - libras
 
                         }
-                        /*else{
+                        else{
                             Toast.makeText(this, "Debe Ingresar valor menor a las libras que existen", Toast.LENGTH_LONG)
                                 .show()
-                        }*/
+                        }
                     }
                 }
                 if (registro != null) {

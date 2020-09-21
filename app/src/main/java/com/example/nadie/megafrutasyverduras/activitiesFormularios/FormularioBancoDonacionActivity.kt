@@ -42,9 +42,7 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
         cargarRegistros()
         mostrarCalendario()
         mostrarCuadroDeDialogo()
-
     }
-
     /**
      * Funcion encargada de cargar los registros iniciales del XML asociado a esta actividad,lo
      * mismo que de iniciar las escuchas necesarias para la ejecucion de los valores y registros asociados
@@ -63,7 +61,6 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
         adapterSpinnerVerduras =
             ArrayAdapter.createFromResource(this, R.array.lista_verduras, android.R.layout.simple_list_item_1)
 
-
     }
 
     /**
@@ -71,7 +68,6 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
      * de la interfaz del XML de esta activity con sus correspondientes acciones
      */
     override fun onClick(v: View?) {
-
 
         if (v?.id == btnRegistrarFD.id) {
 
@@ -82,10 +78,7 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
                 && !ediTxtBultosFD.text.isEmpty()
                 && !textViewFechaRegistroFD.text.isEmpty()
             ) {
-
-
                 try {
-
                     registro = Registro()
 
                     registro.nombreFV = spinnerListaFD.selectedItem.toString()
@@ -96,35 +89,25 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
                     registro.tipoOpcion = spinnerOpcionFD.selectedItemPosition
                     registro.tipoLista = spinnerListaFD.selectedItemPosition
 
-
                     /*intent con destino a  MainActivity , quien se encarga de gestionar los registros guaradandolos
                     en cada una de las listas para ser enviadas hacia la actividad que lo requiera */
                     var intent = Intent()
                     intent.putExtra("registroDesdeFormularioDonacion", registro)
                     setResult(Activity.RESULT_OK, intent)
 
-
-
                     finish()
-
 
                 } catch (e: Exception) {
                     Toast.makeText(this, "Verifique la información ingresada", Toast.LENGTH_LONG).show()
-
                 }
-
-
             } else {
                 Toast.makeText(this, "Debe Ingresar los valores en cada uno de los items", Toast.LENGTH_LONG).show()
             }
-
-
         } else if (v?.id == btnCancelarFD.id) {
 
             builder = AlertDialog.Builder(this)
             builder.setMessage("Esta seguro de cancelar el registro?").setPositiveButton("Si", dialogClickListener)
                 .setNegativeButton("No", dialogClickListener).show()
-
         }
     }
 
@@ -149,7 +132,6 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
             }, v_year, v_month,v_day)
             dpd.show()
         }
-
     }
 
     /**
@@ -168,12 +150,8 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
                 DialogInterface.BUTTON_POSITIVE -> {
                     finish()
                 }
-
             }
-
-
         }
-
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
@@ -185,7 +163,6 @@ class FormularioBancoDonacionActivity : AppCompatActivity(), View.OnClickListene
         } else if (position == 2) {
             spinnerListaFD.adapter = adapterSpinnerVerduras
         }
-
     }
 
     override fun onNothingSelected(parent: AdapterView<*>?) {
